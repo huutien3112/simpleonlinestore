@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product details
+    </title>
+    <link rel="shortcut icon" type="image/png" href="./images/icon2.png" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+
+    <link rel="stylesheet" href="./fa/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="grid wide">
+            <nav class="header__navbar hide-on-mobile-tablet">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-qr  header__navbar-item--separate">
+                        <a class="home-page" href="./index2.html">HOME PAGE</a>
+                        <!-- Header QR Code -->
+                        <div class="header__qr">
+                            <img src="./images/maQR.png" alt="QR code" class="header__qr-img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="./images/google_play.png" alt="Google Play" class="header__qr-download-img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="./images/app_store.png" alt="App Store" class="header__qr-download-img">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <span class="header__navbar-item-span">CONNECT</span>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook-square"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-notify">
+                        <a href="" class="header__navbar-item-link">
+                            <!-- <i class="header__navbar-icon far fa-bell"></i> -->NOTIFICATION
+                        </a>
+                        <div class="header__notify">
+                        <header class="header__notify-header">
+                            <h3>New notification</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item header__notify-item--readed">
+                                    <a href="" class="header__notify-link">
+                                        <img src="./images/sp3.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Content</span>
+                                            <span class="header__notify-description">Product Description</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="./images/sp3.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Content</span>
+                                            <span class="header__notify-description">Product Description</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="./images/sp3.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Content</span>
+                                            <span class="header__notify-description">Product Description</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <footer class="header__notify-footer">
+                                <a href="" class="header__notify-footer-btn">See it all</a>
+                            </footer>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <!-- <i class="header__navbar-icon far fa-question-circle"></i> -->HELP
+                        </a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                        <a class="login" href="./regis.html"> REGISTRATION</a>
+                        </li>
+                    <li class="header__navbar-item header__navbar-item--strong">
+                        <a class="regis" href="./login-re.html">LOG IN</a>
+                        </li>
+                    <!-- <li class="header__navbar-item header__navbar-user">
+                        <img src="./images/2HOxyNCQ.jpg" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Hope Shop</span>
+
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </nav>
+            <!-- header with search -->
+            <div class="header-with-search">
+                <label for="mobile-search-checkbox" class="header__mobile-search">
+                    <i class="header__mobile-search-icon fas fa-search"></i>
+                </label>
+                <div class="header__logo hide-on-tablet">
+                    <!-- <div class="header__logo-img"><img src="./images/icons8-online-shop-favorite-48.png" alt=""></div> -->
+                    <div class="header__logo-text">HopeShop</div>
+                </div>
+
+                <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+                <div class="header__search ">
+                    <div class="header__search-input-wrap">
+                        <input type="text" class="header__search-input" placeholder="Search products">
+
+                        <!-- search-history -->
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Search history</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">Hoodie</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Shoes</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">T-shirt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="header__search-select">
+                        <span class="header__search-select-label">In the Shop</span>
+                        <i class="header__search-select-icon fas fa-angle-down"></i>
+
+                        <ul class="header__search-option">
+                            <li class="header__search-option-item">
+                                <span>In the Shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                            <li class="header__search-option-item">
+                                <span>Outside the Shop</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fas fa-search"></i>
+                    </button>
+                    
+                </div>
+
+
+
+                <!-- Shopping Cart layout -->
+                <div class="header__cart">
+                    <div class="header__cart-wrap">     
+                        <li class="cart">
+                            <a class="cart__link" href="./shopping-cart.html">
+                                <i class="header__cart-icon fas fa-shopping-cart"></i>
+                                <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div> -->
+                            </a>
+                        </li>
+                        <!-- <i class="header__cart-icon fas fa-shopping-cart" aria-hidden="true"></i> -->
+                            <!-- modal shopping cart -->
+                            <!-- The Modal -->
+
+                    <!-- <span class="header__cart-notice">3</span> -->
+
+                    <!-- No cart: header__cart-list--no--cart -->
+                    <!-- <div class="header__cart-list  ">
+                        <img src="./images/no-cart.png" alt="" class="header__cart-no-cart-img">
+                        <span class="header__cart-list-no-cart-msg">
+                            Không có sản phẩm
+                        </span>
+
+                        <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                        <ul class="header__cart-list-item"> -->
+                            <!-- Cart item -->
+                            <!-- <li class="header__card-item">
+                                <img src="./images/sp3.jpg" alt="" class="header__card-img">
+                                <div class="header__card-item-info">
+                                    <div class="header__card-item-head">
+                                        <h5 class="header__card-item-name">Bộ kem đặc trị vùng mắt Bộ kem đặc trị vùng mắt Bộ kem đặc trị vùng mắt</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__card-item-price">2.070.000đ</span>
+                                            <span class="header__card-item-multiply">x</span>
+                                            <span class="header__card-item-quantity">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__card-item-body">
+                                        <span class="header__card-item-dexription">
+                                            Phân loại: Bạc
+                                        </span>
+                                        <span class="header__card-item-remove">
+                                            Xóa
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__card-item">
+                                <img src="./images/sp3.jpg" alt="" class="header__card-img">
+                                <div class="header__card-item-info">
+                                    <div class="header__card-item-head">
+                                        <h5 class="header__card-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__card-item-price">2.070.000đ</span>
+                                            <span class="header__card-item-multiply">x</span>
+                                            <span class="header__card-item-quantity">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__card-item-body">
+                                        <span class="header__card-item-dexription">
+                                            Phân loại: Bạc
+                                        </span>
+                                        <span class="header__card-item-remove">
+                                            Xóa
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__card-item">
+                                <img src="./images/sp3.jpg" alt="" class="header__card-img">
+                                <div class="header__card-item-info">
+                                    <div class="header__card-item-head">
+                                        <h5 class="header__card-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__card-item-price">2.070.000đ</span>
+                                            <span class="header__card-item-multiply">x</span>
+                                            <span class="header__card-item-quantity">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__card-item-body">
+                                        <span class="header__card-item-dexription">
+                                            Phân loại: Bạc
+                                        </span>
+                                        <span class="header__card-item-remove">
+                                            Xóa
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__card-item">
+                                <img src="./images/sp3.jpg" alt="" class="header__card-img">
+                                <div class="header__card-item-info">
+                                    <div class="header__card-item-head">
+                                        <h5 class="header__card-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__card-item-price">2.070.000đ</span>
+                                            <span class="header__card-item-multiply">x</span>
+                                            <span class="header__card-item-quantity">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__card-item-body">
+                                        <span class="header__card-item-dexription">
+                                            Phân loại: Bạc
+                                        </span>
+                                        <span class="header__card-item-remove">
+                                            Xóa
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__card-item">
+                                <img src="./images/sp3.jpg" alt="" class="header__card-img">
+                                <div class="header__card-item-info">
+                                    <div class="header__card-item-head">
+                                        <h5 class="header__card-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__card-item-price">2.070.000đ</span>
+                                            <span class="header__card-item-multiply">x</span>
+                                            <span class="header__card-item-quantity">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__card-item-body">
+                                        <span class="header__card-item-dexription">
+                                            Phân loại: Bạc
+                                        </span>
+                                        <span class="header__card-item-remove">
+                                            Xóa
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__card-item">
+                                <img src="./images/sp3.jpg" alt="" class="header__card-img">
+                                <div class="header__card-item-info">
+                                    <div class="header__card-item-head">
+                                        <h5 class="header__card-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__card-item-price">2.070.000đ</span>
+                                            <span class="header__card-item-multiply">x</span>
+                                            <span class="header__card-item-quantity">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__card-item-body">
+                                        <span class="header__card-item-dexription">
+                                            Phân loại: Bạc
+                                        </span>
+                                        <span class="header__card-item-remove">
+                                            Xóa
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a class="header__card-view-cart btn btn--primary">
+                            Xem giỏ hàng
+                        </a> -->
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <!-- header-sort-mobile -->
+        <ul class="header__sort-bar">
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Involve</a>
+            </li>
+            <li class="header__sort-item header__sort-item--active">
+                <a href="" class="header__sort-link">Latest</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Selling</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Price</a>
+            </li>
+        </ul>
+        <!-- modal -->
+        <!-- <div class="header__overlay"></div> -->
+        <!-- header register -->
+        <!-- <div class="header__navbar-register header__navbar-form">
+            <div class="register__content">
+                <div class="register__heading">
+
+                    <div class="register__heading-time">
+                        <h2 class="register__text-one ">Đăng ký</h2>
+                    </div>
+                    <div class="register__heading-time register__heading-logIn">
+                        <h2 class="register__text-two">Bạn đã có tài khoản?</h2>
+                        <a href="" class="register__logIn register__form">Đăng nhập</a>
+                    </div>
+                </div>
+                <div class="register__phone">
+                    <input type="text" class="register__numberPhone" placeholder="Số điện thoại">
+                </div>
+                <div class="register__next">
+                    <p>TIẾP THEO</p>
+                </div>
+                <div class="register__close">QUAY LẠI</div>
+                <div class="register__line">
+                    <p>HOẶC</p>
+                </div>
+                <div class="register__link">
+                    <div class="register__facebook register__link-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </div>
+                    <div class="register__google register__link-item"><i class="fab fa-google"></i>
+                        <a href="https://www.google.com/">Google</a>
+                    </div>
+                </div>
+                <div class="register__accept">
+                    <p>Bằng việc đăng kí, bạn đã đồng ý với IR về</p> <a href="#">Điều khoản dịch vụ</a> &
+                    <a href="#">Chính sách bảo mật</a>
+                </div>
+
+            </div>
+        </div> -->
+        <!-- header log in -->
+        <!-- <div class="header__navbar-logIn  header__navbar-form">
+            <div class="logIn__content">
+                <div class="logIn__heading">
+                    <div class="logIn__heading-item">
+                        <h2 class="logIn__text-one">Đăng nhập</h2>
+                    </div>
+                    <div class="logIn__heading-item logIn__heading-register">
+                        <h2 class="logIn__text-two">Bạn mới biết đến Shopee</h2>
+                        <a href="" class="logIn__register">Đăng ký</a>
+                    </div>
+                </div>
+                <div class="logIn__user">
+                    <input id="txtdn" type="text" class="logIn__id" placeholder="Email/Số điện thoại/Tên đăng nhập">
+                    <input id="txtmatkhau" type="password" class="logIn__passWord" placeholder="Mật khẩu">
+                </div>
+                <div class="logIn__join">
+                    <p>ĐĂNG NHẬP</p>
+                </div>
+                <div class="logIn__close">QUAY LẠI</div>
+                <div class="logIn__rememberPass">
+                    <a href="#" class="logIn__remember">Quên mật khẩu</a>
+                    <a href="#" class="logIn__SMS">Đăng nhập với SMS</a>
+                </div>
+
+                <div class="logIn__line">
+                    <p>HOẶC</p>
+                </div>
+                <div class="logIn__link">
+                    <div class="logIn__facebook logIn__link-item">
+                        <i class="fab fa-facebook"></i>
+                        <p>Facebook</p>
+                    </div>
+                    <div class="logIn__google logIn__link-item"><i class="fab fa-google"></i>
+                        <p>Google</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div> -->
+    </header>
+
+    <div class="app__container app-content">
+        <div class="home-product-content">
+            <ul class="home-product__list">
+                <li class="home-product__item">
+                    <a href="" class="home-product__link">HOME PAGE</a>
+                </li>
+                <li class="home-product__item">
+                    <i class="home-product-icon fas fa-angle-right"></i>
+                    <a href="" class="home-product__link">HOODIE</a>
+                </li>
+                <li class="home-product__item">
+                    <i class="home-product-icon fas fa-angle-right"></i>
+                    NEW WALKERS PRINTED TEE
+                </li>
+            </ul>
+        </div>
+        <div class="grid wide">
+            <div class="row sm-gutter product__content">
+                <div class="col l-5">
+                    <div class="product-info__item">
+                        <div class="product-info__item-img--big">
+                            <img src="./images/ao1.jpg" alt="" id="img-main">
+                        </div>
+                        <div class="product-info__item-img--small">
+                            <div class="product-info__item-show"><img src="./images/ao1-1.png" alt="" class="img-child">
+                            </div>
+                            <div class="product-info__item-show"><img src="./images/ao1-2.png" alt="" class="img-child">
+                            </div>
+                            <div class="product-info__item-show"><img src="./images/ao1-3.png" alt="" class="img-child">
+                            </div>
+                            <div class="product-info__item-show"><img src="./images/ao1-4.png" alt="" class="img-child">
+                            </div>
+                            <div class="product-info__item-show"><img src="./images/ao1.jpg" alt="" class="img-child">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-interact">
+                        <div class="product-interact__share">
+                            <p class="product-interact__text">Share:</p>
+                            <a href="#" class="product-interact__icon-link"><i
+                                    class="product-interact__icon fab fa-facebook-messenger"></i></a>
+                            <a href="#" class="product-interact__icon-link"><i
+                                    class="product-interact__icon fab fa-facebook"></i></a>
+                            <a href="#" class="product-interact__icon-link"><i
+                                    class="product-interact__icon fab fa-google-plus"></i></a>
+                            <a href="#" class="product-interact__icon-link"><i
+                                    class="product-interact__icon fab fa-pinterest"></i></a>
+                            <a href="#" class="product-interact__icon-link"><i
+                                    class="product-interact__icon fab fa-twitter"></i></a>
+                        </div>
+                        <div class="product-interact__like">
+                            <i class="product-interact__icon far fa-heart"></i>
+                            <p class="product-interact__text product-interact__text--like">Liked(1,1k)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-7">
+                    <div class="product-info__item product__content">
+                        <div class="product-info__item-name">
+                            <svg width="34" height="17" class="product__item-logo">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path
+                                        d="M.796 2.905A2 2 0 0 1 2.798.911h28.995a2 2 0 0 1 2.003 1.994v12.012a2 2 0 0 1-2.003 1.994H2.798a2 2 0 0 1-2.002-1.994V2.905z"
+                                        fill="#D0011B"></path>
+                                    <g fill="#fff">
+                                        <path
+                                            d="M25.81 10.976h.002c0 .823.31 1.359.931 1.609v.002a.847.847 0 0 1-.63 1.572l-.002.003c-1.332-.464-1.998-1.51-1.998-3.141h.004V4.856a.846.846 0 0 1 1.693 0v6.12zM29.516 10.976h.003c0 .823.31 1.359.93 1.609v.002a.847.847 0 0 1-.63 1.572l-.002.003c-1.332-.464-1.998-1.51-1.998-3.141h.004V4.856a.846.846 0 1 1 1.693 0v6.12zM20.78 7.574c.011-.413.418-.82.918-.82.507 0 .918.418.918.837V13.3c0 .419-.41.826-.918.826-.446 0-.818-.315-.9-.676a3.57 3.57 0 0 1-2.215.768c-1.999 0-3.689-1.644-3.689-3.673 0-2.028 1.69-3.756 3.689-3.756.826 0 1.588.295 2.197.786zm-.08 2.919a2.074 2.074 0 1 0-4.146 0 2.072 2.072 0 1 0 4.145 0z">
+                                        </path>
+                                        <path
+                                            d="M3.8 4.645a.824.824 0 0 1 .55-.759c.478-.17.94.18 1.138.587.578 1.19 1.772 2.121 3.374 2.144 1.602.022 2.436-.96 3.057-2.124.215-.403.708-.835 1.277-.607.386.155.539.45.532.732.003.03.005.06.005.09v8.612a.846.846 0 1 1-1.693 0V7.02c-.86.813-1.891 1.333-3.206 1.311a5.477 5.477 0 0 1-3.346-1.237v6.225a.846.846 0 0 1-1.693 0V4.74c0-.032.002-.064.006-.096z"
+                                            fill-rule="nonzero"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <p class="product__item-text"> NEW WALKERS PRINTED TEE</p>
+                        </div>
+                    </div>
+                    <div class="product__rating">
+                        <div class="product__rating-item product__rating-number-star">
+                            <a href="#" class="product__rating-link">4.8</a>
+                            <i class="product__rating-star home-product-item__star--gold fas fa-star"></i>
+                            <i class="product__rating-star home-product-item__star--gold fas fa-star"></i>
+                            <i class="product__rating-star home-product-item__star--gold fas fa-star"></i>
+                            <i class="product__rating-star fas fa-star"></i>
+                            <i class="product__rating-star fas fa-star"></i>
+                        </div>
+                        <div class="product__rating-item product__rating-evaluate">
+                            <a href="#" class=" product__rating-link">747</a>
+                            <span class=" product__rating-text">Evaluate</span>
+                        </div>
+                        <div class="product__rating-item product__rating-sold">
+                            <span class="product__rating-sold-num">
+                                1,8k
+                            </span>
+                            <span class="product__rating-sold-text">
+                                Sold
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="product__price">
+                        <div class="product__price-content">
+                            <span class="product__price-item product__price-old">
+                                $1,450.00
+                            </span>
+                            <span class="product__price-item product__price-current">
+                                $1,200.00
+                            </span>
+                            <span class="product__price-item product__price-discout">
+                                20% SALE
+                            </span>
+                        </div>
+                        <div class="product__price-brand">
+                            <div class="product__price-item product__price-logo"
+                                style="background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d7cb3c110ef860cca3969ab0cd6c2ac9.png); ">
+                            </div>
+                            <div class="product__price-item product__price-slogan">Where is cheaper, H.S refunds
+
+                            </div>
+                            <div class="product__price-item product__price-item--content">
+                                <i class="product__price-icon far fa-question-circle"></i>
+                                <div class="product-icon__arrow"></div>
+                                <div class="product__price-icon-content">
+                                    <a href="#" class="product__price-link">
+                                        Find products with lower prices? Get your FREE voucher here!
+
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <span class="product-content">
+                                        PROGRAM PROGRAM "CHEAPER CHEAPER! WHERE IS CHEAPER, IR REFUND!"
+
+                                        Introduce
+                                        IR is committed to providing you with products that are not cheap. If
+                                        You find products priced lower than the price you bought on IR, please
+                                        notice, we will refund the difference (subject to applicable conditions).
+
+
+                                        
+                                        Scope of application
+
+                                        • Products applied: under the program "Cheap championship - Where cheaper, IR
+                                        Refund"
+
+                                        • Products for comparison: sold at top 10 active e-commerce sites
+                                        activities in Vietnam. Please contact Customer Service Center 19001221 for more details
+                                        secretion.
+
+                                        • The price of the product to compare is the price listed publicly for customers to buy
+                                        100% new product, complete, whole, excluding shipping or any
+                                        what kind of fee; Do not apply discount codes or any form of discount / discount
+                                        any other stage
+
+
+                                        Note
+
+                                        • IR reserves the right to refuse a refund if it detects that a customer is dishonest and
+                                        taking advantage of IR policy to seek personal benefits.
+
+                                        • Employees / Sellers' families cannot participate in this program.
+
+                                        • Buyer can only claim a maximum of 3 times / day and compensation amount each time
+                                        not exceeding VND 500,000. Buyer claims product successfully up to 1 time.
+
+                                        • In all cases, the IR decision is final.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__deal">
+                        <span class="product__deal-item">
+                            Shock Deal
+                        </span>
+                        <span class="product__deal-item product__deal-item-buy">
+                            Buy with Shock Deal 
+
+                        </span>
+                    </div>
+                    <div class="product__coin">
+                        <div class="product__coin-item product__coin-heading">
+                            Coin
+                        </div>
+                        <div class="product__coin-item product__coin-middle">
+                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a507d0e185dbd56e388652d8d8da845d.png"
+                                class="product__coin-item--img" alt="logo-coin">
+                            <p>Buy items and collect<span>600</span> IR coins</p>
+                        </div>
+                        <div class="product__coin-item product__coin-icon">
+                            <i class="far fa-question-circle"></i>
+                            <span class="product__coin-item--content">
+                                Hunt IR coins to use for next purchase. Every
+                                                                One thousand cents is worth $100</span>
+                        </div>
+                    </div>
+                    <div class="product__transport">
+                        <div class="product__transport-heading product__transport-item">
+                            Transport
+                        </div>
+                        <div class="product__transport-item">
+                            <div class="product__transport-free">
+                                <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/9d21899f3344277e34d40bfc08f60bc7.png"
+                                    class="product__transport-img" alt="" width="25px" height="15px">
+                                <div class="product__transport-item-content">
+                                    <p>Free shipping
+                                    </p>
+                                    <p>Free Shipping when the order reaches the minimum value
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product__transport-free">
+                                <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/9d21899f3344277e34d40bfc08f60bc7.png"
+                                    class="product__transport-img" alt="" width="25px" height="15px">
+                                <div class="product__transport-item-content">
+                                    <div class="product__transport-local">
+                                        <p class="product__transport-text">Transport to
+                                        </p>
+                                        <a href="#" class="product__transport-local-link">Ba Vi District, Hanoi
+                                        </a>
+                                        <label for="product__transport--checked">
+                                            <!-- <i
+                                                class="product__transport-icon product__transport-icon--local fas fa-angle-down"></i> -->
+                                        </label>
+                                        <input type="checkbox" id="product__transport--checked" hidden
+                                            class="product__transport-local-label">
+                                        <!-- <ul class="product__transport-local--list">
+                                            <input type="text" class="product__transport-local--search"
+                                                placeholder="Tìm">
+                                            <li class="product__transport-local--item">An Giang</li>
+                                            <li class="product__transport-local--item">Bà Rịa - Vũng Tàu</li>
+                                            <li class="product__transport-local--item">Bắc Kạn</li>
+                                            <li class="product__transport-local--item">Bắc Giang</li>
+                                            <li class="product__transport-local--item">Bạc Liêu</li>
+                                            <li class="product__transport-local--item">Vĩnh Phúc</li>
+                                            <li class="product__transport-local--item">Quảng Nam</li>
+                                            <li class="product__transport-local--item">Đà Nẵng</li>
+                                            <li class="product__transport-local--item">TP. Hồ Chí Minh</li>
+                                            <li class="product__transport-local--item">Hà Nội</li>
+                                            <li class="product__transport-local--item">Long An</li>
+                                            <li class="product__transport-local--item">Biên Hòa</li>
+                                            <li class="product__transport-local--item">An Giang</li>
+                                            <li class="product__transport-local--item">Bà Rịa - Vũng Tàu</li>
+                                            <li class="product__transport-local--item">Bắc Kạn</li>
+                                            <li class="product__transport-local--item">Bắc Giang</li>
+                                            <li class="product__transport-local--item">Bạc Liêu</li>
+                                            <li class="product__transport-local--item">Vĩnh Phúc</li>
+                                            <li class="product__transport-local--item">Quảng Nam</li>
+                                            <li class="product__transport-local--item">Đà Nẵng</li>
+                                            <li class="product__transport-local--item">TP. Hồ Chí Minh</li>
+                                            <li class="product__transport-local--item">Hà Nội</li>
+                                            <li class="product__transport-local--item">Long An</li>
+                                            <li class="product__transport-local--item">Biên Hòa</li>
+                                        </ul> -->
+                                    </div>
+                                    <div class="product__transport-coin">
+                                        <p class="product__transport-text">Transport fee
+                                        </p>
+                                        <span class="product__transport-coin-price">$5</span>
+                                        <!-- <div class="product__transport-coin--content">
+                                            <i
+                                                class="product__transport-icon product__transport-icon--coin fas fa-angle-down"></i>
+                                            <div class="product__transport-coin--fast">
+                                                <h3>Vận chuyển nhanh</h3>
+                                                <ul class="product__transport-coin-list">
+                                                    <li class="product__transport-coin-item">
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-heading">
+                                                            <div class="product__transport-coin-item-name">VIETTEL POST
+                                                            </div>
+                                                            <div class="product__transport-coin-item-price">57.244đ
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-date">
+                                                            Nhận hàng vào 17 Th03 - 19 Th03
+                                                        </div>
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-voucher">
+                                                            <span class="product__transport-coin-item-span">Miễn phí vận
+                                                                chuyển</span> cho đơn hàng từ <span
+                                                                class="product__transport-coin-item-span">150.000đ</span>(giảm
+                                                            tối đa <span
+                                                                class="product__transport-coin-item-span">30.000đ</span>)
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__transport-coin-item">
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-heading">
+                                                            <div class="product__transport-coin-item-name">GIAO HÀNG
+                                                                NHANH</div>
+                                                            <div class="product__transport-coin-item-price">55.369đ
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-date">
+                                                            Nhận hàng vào 17 Th03 - 18 Th03
+                                                        </div>
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-voucher">
+                                                            <span class="product__transport-coin-item-span">Miễn phí vận
+                                                                chuyển</span> cho đơn hàng từ <span
+                                                                class="product__transport-coin-item-span">150.000đ</span>(giảm
+                                                            tối đa <span
+                                                                class="product__transport-coin-item-span">30.000đ</span>)
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__transport-coin-item">
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-heading">
+                                                            <div class="product__transport-coin-item-name">GIAO HÀNG
+                                                                TIẾT KIỆM</div>
+                                                            <div class="product__transport-coin-item-price">59.400đ
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-date">
+                                                            Nhận hàng vào 17 Th03 - 18 Th03
+                                                        </div>
+                                                        <div
+                                                            class="product__transport-coin-content product__transport-coin-item-voucher">
+                                                            <span class="product__transport-coin-item-span">Miễn phí vận
+                                                                chuyển</span> cho đơn hàng từ <span
+                                                                class="product__transport-coin-item-span">150.000đ</span>(giảm
+                                                            tối đa <span
+                                                                class="product__transport-coin-item-span">30.000đ</span>)
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div> -->
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__variation">
+                        <div class="product__variation-heading">
+                            Variation
+                        </div>
+                        <div class="product__variation-type">
+                            <div class="product__variation-item">BLACK</div>
+
+                            <div class="product__variation-item product__variation-item-big">BLUE</div>
+                            <div class="product__variation-item">RED</div>
+                        </div>
+                    </div>
+                    <div class="product__amount">
+                        <div class="product__amount-heading">
+                            Amount
+                        </div>
+                        <div class="product__amount-content">
+                            <div class="product__amount-add-product">
+                                <button onclick="clickCounterr()" class="product__amount-item">-</button>
+                                <div class="product-number" id="result">1</div>
+                                <button onclick="clickCounter()" class="product__amount-item">+</button>
+                            </div>
+                            <div class="product__amount-product-available">
+                                930 products available
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__cart-buy">
+                        <div id="1" data-name="Sony Android TV 4K 49" data-price="12400000" class="add-to-cart product__cart-buy-item product__cart-buy-add">
+                            <i class="product__cart-buy-add-item fas fa-cart-plus"></i>
+                            Add to cart
+                        </div>
+                        <div class="product__cart-buy-item product__cart-buy-now">
+                            Buy now
+                        </div>
+                    </div>
+                    <div class="product__footer">
+                        <div class="product__footer-item">
+                            <div class="product__footer-item-img product__footer-item-left"
+                                style="background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7ff21e27ed225aa5be9e43569b076af8.png)">
+                            </div>
+                            7 days free return
+                        </div>
+                        <div class="product__footer-item">
+                            <div class="product__footer-item-img product__footer-item-middle"
+                                style="background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7ff21e27ed225aa5be9e43569b076af8.png)">
+                            </div>
+                            100% genuine goods
+                        </div>
+                        <div class="product__footer-item">
+                            <div class="product__footer-item-img product__footer-item-right"
+                                style="background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7ff21e27ed225aa5be9e43569b076af8.png)">
+                            </div>
+                            Free shipping
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid wide product__container">
+            <div class="row sm-gutter product-detail">
+                <div class="col l-9 product-detail-wrap">
+                    <div class="product-detail-wrapper">
+                        <div class="product-detail-title">
+                            <h1>Product details
+                            </h1>
+
+                        </div>
+                        <div class="product-detail-item-wrap product-detail-category">
+                            <div class="product-detail-item product-detail-category-heading">Category</div>
+                            <div class="product-detail-item-content product-detail-category-name">
+                                <ul class="product-detail-category-list">
+                                    <li class="product-detail-category-item">
+                                        <a href="" class="product-detail-category__link">IR</a>
+                                    </li>
+                                    <li class="product-detail-category-item">
+                                        <i class="product-detail-category-icon fas fa-angle-right"></i>
+                                        <a href="" class="product-detail-category__link">HOODIE</a>
+                                    </li>
+                                    <li class="product-detail-category-item">
+                                        <i class="product-detail-category-icon fas fa-angle-right"></i>
+                                        <a href="" class="product-detail-category__link"> NEW WALKERS PRINTED TEE </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-detail-item-wrap product-detail-brand">
+                            <div class="product-detail-item product-detail-brand-heading">
+                                Trademark
+                            </div>
+                            <div class="product-detail-item-content product-detail-brand-name">
+                                <a href="#" class="product-detail-brand__link">Haras</a>
+                            </div>
+                        </div>
+                        <div class="product-detail-item-wrap product-detail-material">
+                            <div class="product-detail-item product-detail-material-heading">
+                                Material
+                            </div>
+                            <div class="product-detail-item-content product-detail-material-name">
+                                Polyester
+                            </div>
+                        </div>
+                        <div class="product-detail-item-wrap product-detail-item-origin">
+                            <div class="product-detail-item product-detail-item-origin-heading">
+                                Origin
+                            </div>
+                            <div class="product-detail-item-content product-detail-item-origin-name">
+                                France
+                            </div>
+                        </div>
+                        <div class="product-detail-item-wrap product-detail-item-warehouse">
+                            <div class="product-detail-item product-detail-item-warehouse-heading">
+                                Warehouse
+                            </div>
+                            <div class="product-detail-item-content product-detail-item-warehouse-number">
+                                930
+                            </div>
+                        </div>
+                        <div class="product-detail-item-wrap product-detail-item-send">
+                            <div class="product-detail-item product-detail-item-send-heading">
+                                Sent from
+                            </div>
+                            <div class="product-detail-item-content product-detail-item-send-address">
+                                Thu Duc District, Ho Chi Minh City
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-detail-wrapper">
+                        <div class="product-detail-title">
+                            <h1>Product Description
+                            </h1>
+                        </div>
+                        <div class="product-detail-content">
+                            <br>
+                            The iconic Keepall 50 Bandoulière takes on a brilliant new feel for Spring-Summer 2019: what at first seems to be a monocolor design reveals itself to be a nuanced colorway combining Monogram canvas with supple Taiga leather. Light and supple, the bag lives up to its name: those versed in the art of packing can easily carry a week's wardrobe in the generously sized (and cabin-friendly) Keepall 50.
+                            Detailed Features
+                            19.7 x 11.4 x 9.1 inches
+                            (Length x Height x Width)
+                            Black
+                            Cabin-size
+                            Taiga cowhide leather and Monogram Eclipse coated canvas
+                            Cowhide leather trim
+                            Textile lining
+                            Silver-color hardware
+                            Zip closure system
+                            Leather name tag
+                            Inside zipped pocket
+                            Large capacity
+                            Strap:Removable, adjustable
+                            Strap drop: 14.2 inches
+                            Strap drop max: 19.7 inches
+                            Handle:Double
+                            The reference is either made in France, Spain, Italy or in the US.
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 app__product">
+                    <!-- product hot sales -->
+                    <div class="product-hot-sales">
+                        <a href="index.html" class="product-hot-sales-wrapper">
+                            <div class="product-hot-sales-item">
+                                <h3>Top selling products
+                                </h3>
+                                <div class="product-hot-sales-img" style="background-image: url(./images/quan2.jpg)">
+                                </div>
+                                <div class="product-hot-sales-name">HT DENIM SKINNY KHAKI</div>
+                                <div class="product-hot-sales-price">$1,650.00</div>
+                            </div>
+                        </a>
+                        <a href="index.html" class="product-hot-sales-wrapper">
+                            <div class="product-hot-sales-item">
+                          
+                                <div class="product-hot-sales-img" style="background-image: url(./images/nit1.jpg)">
+                                </div>
+                                <div class="product-hot-sales-name">DOUBLE BLACK PYRAMID STUD BELT</div>
+                                <div class="product-hot-sales-price">$900.00</div>
+                            </div>
+                        </a>
+                        <a href="index.html" class="product-hot-sales-wrapper">
+                            <div class="product-hot-sales-item">
+   
+                                <div class="product-hot-sales-img" style="background-image: url(./images/nit2.jpg)">
+                                </div>
+                                <div class="product-hot-sales-name">THREE ROW PYRAMID BELT </div>
+                                <div class="product-hot-sales-price">$2,100.00</div>
+                            </div>
+                        </a>
+                        <a href="index.html" class="product-hot-sales-wrapper">
+                            <div class="product-hot-sales-item">
+      
+                                <div class="product-hot-sales-img" style="background-image: url(./images/tui1.jpg)">
+                                </div>
+                                <div class="product-hot-sales-name">SUNFLOWERS & SKULLS</div>
+                                <div class="product-hot-sales-price">$1,300.00</div>
+                            </div>
+                        </a>
+                        <a href="index.html" class="product-hot-sales-wrapper">
+                            <div class="product-hot-sales-item">
+              
+                                <div class="product-hot-sales-img" style="background-image: url(./images/tui2.jpg)">
+                                </div>
+                                <div class="product-hot-sales-name">LOVE RAINBOW CROSSBODY</div>
+                                <div class="product-hot-sales-price">$400.00</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="grid wide footer__content">
+            <div class="row">
+
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Customer care
+                    </h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item__link">Help center
+                            </a>
+                        </li>
+                        <li class="footer__list-item">    
+                            <a href="" class="footer__list-item__link">H.S mail</a>
+                        </li>
+                        <li class="footer__list-item">    
+                            <a href="" class="footer__list-item__link">Shopping guide
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">About H.S</h3>
+                    <ul class="footer__list"> 
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item__link">About H.S Vietnam
+                            </a>
+                        </li>
+                        <li class="footer__list-item">    
+                            <a href="" class="footer__list-item__link">Recruitment</a>
+                        </li>
+                        <li class="footer__list-item">    
+                            <a href="" class="footer__list-item__link">Rules</a>
+                        </li> 
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Category</h3>
+                    <ul class="footer__list"> 
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item__link">Purchase</a>
+                        </li>
+                        <li class="footer__list-item">    
+                            <a href="" class="footer__list-item__link">Distribution</a>
+                        </li>
+                        <li class="footer__list-item">    
+                            <a href="" class="footer__list-item__link">Price</a>
+                        </li> 
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Follow us on
+                    </h3>
+                    
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item__link">
+                                <i class="footer__list-item__icon fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item__link">
+                                <i class="footer__list-item__icon fab fa-instagram"></i>
+                                Instargam
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item__link">
+                                <i class="footer__list-item__icon fab fa-linkedin"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-2-4 m-4 c-12">
+                    <h3 class="footer__heading">Enter the store on the app
+                    </h3>
+                    <div class="footer__download">
+                        <img class="footer__download-qr" src="file:///F:/Study/Visual%20Studio%20Code/F8/TemplateLongjs/images/maQR.png" alt="">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-app-link">
+                                <img src="file:///F:/Study/Visual%20Studio%20Code/F8/TemplateLongjs/images/google_play.png" alt="" class="footer__download-app-img">
+                            </a>
+                            <a href="" class="footer__download-app-link">
+                                <img src="file:///F:/Study/Visual%20Studio%20Code/F8/TemplateLongjs/images/app_store.png" alt="" class="footer__download-app-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+
+            <div class="grid wide">
+                <div class="footer__bottom-heading">
+                    <ul class="footer__bottom-heading-label">
+                        <li class="footer__bottom-heading-label-link">
+                            <a href="" class="footer__bottom-heading-label-linka ">Privacy Policy
+                            </a>
+                        </li>
+                        <li class="footer__bottom-heading-label-product">
+                            <a href="" class="footer__bottom-heading-label-linka">Operation regulation
+                            </a>
+                        </li>
+                        <li class="footer__bottom-heading-label-product">
+                            <a href="" class="footer__bottom-heading-label-linka">Shipping policy
+                            </a>
+                        </li>
+                        <li class="footer__bottom-heading-label-product">
+                            <a href="" class="footer__bottom-heading-label-linka">Return and refund policies
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__bottom-logo">
+                    <img class="footer__bottom-logo-img" src="./images/icons8-online-shop-favorite-36.png" alt="">
+                </div>
+                <div class="footer__text">
+                    <p class="footer__text-info">
+                        1 member limited liability company </p>
+                    <p class="footer__text-info">Hope Shop</p>
+                    <p class="footer__text-info">@ 2020 - Copyright belongs to the H.S company
+                         </p>
+                </div>
+            </div>
+            <!-- <a class="rgba" href="#">♥ THẢO NGUYÊN ♥</a> -->
+        </div>
+    </footer>
+</body>
+<script src="js.js"></script>
+
+</html>
